@@ -4,7 +4,7 @@
 	"license": "NONE",
 	"version": "0.0.1",
 	"description": "A template for making typescript + node + esm systems.",
-	"keywords": [ ],
+	"keywords": [],
 	"homepage": "https://github.com/noltron000/__URL__#readme",
 	"repository": {
 		"type": "git",
@@ -29,6 +29,7 @@
 	"main": "source/main.mts",
 	"type": "module",
 	"scripts": {
+		"start": "yarn ts-node ./source/main.mts",
 		"ts-node": "node --loader ./source/configuration/esm-loader.mjs"
 	},
 	"dependencies": {
